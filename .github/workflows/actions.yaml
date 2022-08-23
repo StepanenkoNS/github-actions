@@ -13,7 +13,7 @@ jobs:
           ls
       - name: Checkout
         id: checkout
-        uses: actions/checkout@v3.0.2
+        uses: actions/checkout@v1
       - name: List files after checkout list of files
         id: listing-after-checkout
         run: |
